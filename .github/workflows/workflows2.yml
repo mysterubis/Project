@@ -35,4 +35,4 @@ jobs:
         password: "dckr_pat_rltnR1QeQ_f-Iv46_t9VmdvtDvs"
 
     - name: Push Docker Image 
-      run: docker push mohamedfarsi/app:3.0
+      run: docker push mohamedfarsi/apptp:v2
