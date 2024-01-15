@@ -1,4 +1,4 @@
-from script import divide
+from script1 import divide
 
 def test_divide():
     # Test de la division de nombres positifs

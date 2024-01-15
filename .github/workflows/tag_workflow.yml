@@ -1,0 +1,14 @@
+name: Tag Workflow
+
+on:
+  push:
+    tags:
+      - 'r*'  # Déclenchement pour les tags commençant par 'r'
+
+jobs:
+  tagged_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
