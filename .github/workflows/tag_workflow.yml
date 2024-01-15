@@ -3,7 +3,7 @@ name: Tag Workflow
 on:
   push:
     tags:
-      - 'r*'  # Déclenchement pour les tags commençant par 'r'
+      - 'r*'  # Déclenchement pour les tags commençant par 'r' ok
 
 jobs:
   tagged_job:
